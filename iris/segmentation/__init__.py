@@ -13,7 +13,7 @@ from scipy.ndimage import convolve, minimum_filter, maximum_filter
 from skimage.io import imread, imsave
 from skimage.filters import sobel
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, f1_score, jaccard_similarity_score
+from sklearn.metrics import accuracy_score, f1_score, jaccard_score
 import yaml
 
 from iris.user import requires_auth
